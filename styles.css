@@ -1,4 +1,6 @@
 body, html{
+  background-image: url('dance.jpg');
+  background-size: cover;
   height:100%;
 }
 body{
@@ -21,31 +23,33 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:50px solid red;
-  border-radius:10px;
+/*  border:50px solid red;
+*/  border-radius:10px;
   position:absolute;
 }
 
 .blinky{
-  border:30px solid blue;
-  border-radius:30px;
+  content:url('http://i.imgur.com/yBPMiCp.gif');
+/*  border:30px solid blue;
+*/  border-radius:30px;
   position:absolute;
 }
 
 .egypt{
-  border:40px solid yellow;
+  content:url("http://www.stickpng.com/assets/images/584e00556a5ae41a83ddee1d.png");
   border-radius:10px;
   position:absolute;
 }
 
 .break{
-  border:50px solid green;
-  border-radius:30px;
+  content:url('https://media2.giphy.com/media/3ohc14PonzorDD9FOU/giphy.gif');
+  border-radius:50px;
   position:absolute;
 }
 
-
-
+.break:hover {
+  transform: scale(3);
+}
 
 
 

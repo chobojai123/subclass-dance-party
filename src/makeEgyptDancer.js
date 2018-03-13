@@ -9,6 +9,6 @@ makeEgyptDancer.prototype.constructor = makeEgyptDancer;
 makeEgyptDancer.prototype.step = function() {
   makeDancer.prototype.step.call(this);
 
-  this.$node.fadeToggle();
+  // this.$node.fadeToggle();
 };
 
