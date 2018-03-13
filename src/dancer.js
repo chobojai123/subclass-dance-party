@@ -1,7 +1,8 @@
 // Creates and returns a new dancer object that can step
 var makeDancer = function(top, left, timeBetweenSteps) {
 
-
+  this.top = top;
+  this.left = left;
   // use jQuery to create an HTML <span> tag
   this.$node = $('<span class="dancer"></span>');
   this.step();
@@ -24,16 +25,45 @@ makeDancer.prototype.setPosition = function(top, left) {
   // where it belongs on the page. See http://api.jquery.com/css/
   //
   var styleSettings = {
-    top: top,
+    top: top, 
     left: left
   };
   this.$node.css(styleSettings);
 };
 
 
+makeDancer.prototype.lineUp = function() {
+  var styleSettings = {
+    left: 0
+ 
+  };
+  this.$node.css(styleSettings);
+};
+
+
+makeDancer.prototype.breakUp = function() {
+  this.setPosition($('body').height() * Math.random(), $('body').width() * Math.random());
+};
+
+makeDancer.prototype.transform = function() {
+  // var rotate = {
+  //   transform: rotate(0.5turn)
+  // }
+  // this.$node.css(rotate);
+  this.$node.addClass( "transform" );
+};
 
 
 
+
+// @keyframes spin {
+//     from {
+//       transform: rotate(0deg);
+//     }
+//     to {
+//       transform: rotate(360deg)
+//     }
+//   }
 
 
 

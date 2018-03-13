@@ -36,9 +36,11 @@ body, a:link, a:visited, a:active{
 }
 
 .egypt{
-  content:url("http://www.stickpng.com/assets/images/584e00556a5ae41a83ddee1d.png");
+  content:url("http://i.imgur.com/E7YAB51.gif");
   border-radius:10px;
   position:absolute;
+  width: 10;
+  height: auto;
 }
 
 .break{
@@ -51,6 +53,9 @@ body, a:link, a:visited, a:active{
   transform: scale(3);
 }
 
+.transform {
+   transform: rotate(0.25turn)
+}
 
 
 
