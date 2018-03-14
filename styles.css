@@ -1,7 +1,8 @@
 body, html{
-  background-image: url('dance.jpg');
-  background-size: cover;
-  height:100%;
+  background-image: url('Disco.jpg');
+  background-size: cover;                
+  background-repeat:   repeat;
+  height: 100%;
 }
 body{
   margin: 0px;
@@ -23,15 +24,13 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-/*  border:50px solid red;
-*/  border-radius:10px;
+  border-radius:10px;
   position:absolute;
 }
 
 .blinky{
   content:url('http://i.imgur.com/yBPMiCp.gif');
-/*  border:30px solid blue;
-*/  border-radius:30px;
+  border-radius:10px;
   position:absolute;
 }
 
@@ -39,19 +38,17 @@ body, a:link, a:visited, a:active{
   content:url("http://i.imgur.com/E7YAB51.gif");
   border-radius:10px;
   position:absolute;
-  width: 10;
-  height: auto;
 }
 
 .break{
   content:url('https://media2.giphy.com/media/3ohc14PonzorDD9FOU/giphy.gif');
-  border-radius:50px;
+  border-radius:10px;
   position:absolute;
 }
 
-.break:hover {
-  transform: scale(3);
-}
+/*.break:hover {
+  transform: scale(1);
+}*/
 
 .transform {
    transform: rotate(0.25turn)

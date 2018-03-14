@@ -23,19 +23,11 @@ $(document).ready(function() {
       //top - top ; left - left
       if(window.dancers[i].top - dancer.top < 200 && window.dancers[i].left - dancer.left < 200){
         window.dancers[i].transform();
-        window.dancers[i].transform();
-        window.dancers[i].transform();
-        window.dancers[i].transform();
       }
     }
     // and find closest item
     // then, both rotate 360 degrees
     window.dancers.push(dancer);
-
-    $('.egypt').on('mouseover', function(event) {
-    console.log('hello');
-    $('.egypt').css("border-radius", "5px");
-    })
   });
 
 

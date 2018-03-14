@@ -46,24 +46,9 @@ makeDancer.prototype.breakUp = function() {
 };
 
 makeDancer.prototype.transform = function() {
-  // var rotate = {
-  //   transform: rotate(0.5turn)
-  // }
-  // this.$node.css(rotate);
   this.$node.addClass( "transform" );
 };
 
-
-
-
-// @keyframes spin {
-//     from {
-//       transform: rotate(0deg);
-//     }
-//     to {
-//       transform: rotate(360deg)
-//     }
-//   }
 
 
 
