@@ -1,7 +1,7 @@
 body, html{
   background-image: url('Disco.jpg');
-  background-size: cover;                
-  background-repeat:   repeat;
+  background-size: cover;              
+  background-repeat: no-repeat;  
   height: 100%;
 }
 body{
@@ -26,29 +26,41 @@ body, a:link, a:visited, a:active{
 .dancer{
   border-radius:10px;
   position:absolute;
+  background-size: 100%;
 }
 
-.blinky{
+.sponge{
   content:url('http://i.imgur.com/yBPMiCp.gif');
-  border-radius:10px;
+  border-radius:30px;
   position:absolute;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 0;
+  width: 100px;
+  height: 100px;
 }
 
-.egypt{
+.putin{
   content:url("http://i.imgur.com/E7YAB51.gif");
-  border-radius:10px;
+  border-radius:30px;
   position:absolute;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 0;
+  width: 100px;
+  height: 100px;
 }
 
-.break{
+.tube{
   content:url('https://media2.giphy.com/media/3ohc14PonzorDD9FOU/giphy.gif');
-  border-radius:10px;
+  border-radius:30px;
   position:absolute;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 0;
+  width: 100px;
+  height: 100px;
 }
-
-/*.break:hover {
-  transform: scale(1);
-}*/
 
 .transform {
    transform: rotate(0.25turn)

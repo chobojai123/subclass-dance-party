@@ -9,13 +9,16 @@ $(document).ready(function() {
 
     // make a dancer with a random position
     
+
+
     var dancer = new dancerMakerFunction(
 
-      $('body').height() * Math.random(),
+      $('body').height() * Math.random(), // math.min??
       $('body').width() * Math.random(),
       Math.random() * 1000
     );
-
+     console.log($('body').height());
+    console.log($('body').width());
     $('body').append(dancer.$node);
 
     // for newest item, loop through old array (window.dancers)
